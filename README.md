@@ -36,7 +36,9 @@ The SOC Automation Lab is a fully functional security operations pipeline built 
 ### Phase 1 — Scope & Planning
 Defined the system boundary, selected Trust Service Criteria (Security + Availability), documented in-scope components, and established the audit date.
 
-📄 [`phase1-scope/SOC2_Audit_Scope_Document.docx`](phase1-scope/SOC2_Audit_Scope_Document.docx)
+📄 [SOC2_Audit_Scope_Document.docx](https://github.com/ronanlucky/SOC2-Audit-Lab/blob/main/SOC2_Audit_Scope_Document.docx)
+
+
 
 ---
 
@@ -56,7 +58,7 @@ Identified and rated 10 risks across the full pipeline using NIST SP 800-30 Rev.
 | R-09 | Network | VM IP change breaks automation pipeline | Medium |
 | R-10 | OpenAI API | AI prompt injection via malicious log data | Medium |
 
-📄 [`phase2-risk-register/SOC2_Risk_Register.docx`](phase2-risk-register/SOC2_Risk_Register.docx)
+📄 [SOC2_Risk_Register.docx](https://github.com/ronanlucky/SOC2-Audit-Lab/blob/main/SOC2_Risk_Register.docx)
 
 ---
 
@@ -69,7 +71,7 @@ Mapped 14 controls across CC6 (Logical Access), CC7 (System Operations), and A1 
 | Partially implemented | 9 |
 | Not implemented | 0 |
 
-📄 [`phase3-control-matrix/SOC2_Control_Matrix.docx`](phase3-control-matrix/SOC2_Control_Matrix.docx)
+📄 [SOC2_Control_Matrix.docx](https://github.com/ronanlucky/SOC2-Audit-Lab/blob/main/SOC2_Control_Matrix.docx)
 
 ---
 
@@ -87,7 +89,7 @@ Formal SOC 2 Type I audit report with auditor opinion, system description, perfo
 | F-05 | n8n Docker container has no restart policy configured | A1.2 | Medium |
 | F-06 | Splunk disk space threshold set below recommended minimum | A1.2 | Medium |
 
-📄 [`phase4-audit-report/SOC2_Audit_Report.docx`](phase4-audit-report/SOC2_Audit_Report.docx)
+📄 [SOC2_Audit_Report.docx](https://github.com/ronanlucky/SOC2-Audit-Lab/blob/main/SOC2_Audit_Report.docx)
 
 ---
 
@@ -103,7 +105,7 @@ Six labeled audit exhibits captured from the live SOC lab environment, embedded 
 | E | Slack alert delivery — #alerts channel | CC7.3 |
 | F | MITRE ATT&CK mapping — T1110 Brute Force | CC7.3 |
 
-📄 [`evidence/SOC2_Audit_Evidence_Appendix.docx`](evidence/SOC2_Audit_Evidence_Appendix.docx)
+📄 [SOC2_Audit_Evidence_Appendix.docx](https://github.com/ronanlucky/SOC2-Audit-Lab/blob/main/SOC2_Audit_Evidence_Appendix.docx)
 
 ---
 
